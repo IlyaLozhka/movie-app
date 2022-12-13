@@ -1,18 +1,6 @@
-import { StyleSheet, View, Text } from 'react-native';
+import {MainNavigation} from "./src/navigation/Navigator";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Here will be some screens</Text>
-    </View>
-  );
-}
+    return <MainNavigation/>
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+}
